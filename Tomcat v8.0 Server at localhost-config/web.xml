@@ -36,7 +36,7 @@
   <!-- web.xml file).  This servlet supports the following initialization   -->
   <!-- parameters (default values are in square brackets):                  -->
   <!--                                                                      -->
-  <!--   debug               Debugging detail level for messages logged     -->
+  <!--   debug               Debugging detail level for msgs logged     -->
   <!--                       by this servlet. Useful values are 0, 1, and   -->
   <!--                       11 where higher values mean more detail. [0]   -->
   <!--                                                                      -->
@@ -144,7 +144,7 @@
   <!--                                                                      -->
   <!--   displaySourceFragment                                              -->
   <!--                       Should a source fragment be included in        -->
-  <!--                       exception messages? [true]                     -->
+  <!--                       exception msgs? [true]                     -->
   <!--                                                                      -->
   <!--   dumpSmap            Should the SMAP info for JSR45 debugging be    -->
   <!--                       dumped to a file? [false]                      -->
@@ -269,7 +269,7 @@
   <!--   buffered            Should output from this servlet be buffered?   -->
   <!--                       (0=false, 1=true)  [0]                         -->
   <!--                                                                      -->
-  <!--   debug               Debugging detail level for messages logged     -->
+  <!--   debug               Debugging detail level for msgs logged     -->
   <!--                       by this servlet.  [0]                          -->
   <!--                                                                      -->
   <!--   expires             The number of seconds before a page with SSI   -->
@@ -329,7 +329,7 @@
   <!--                        If not set, then webAppRootDir is used.       -->
   <!--                        Recommended value: WEB-INF/cgi                -->
   <!--                                                                      -->
-  <!--   debug                Debugging detail level for messages logged    -->
+  <!--   debug                Debugging detail level for msgs logged    -->
   <!--                        by this servlet. Useful values range from 0   -->
   <!--                        to 5 where 0 means no logging and 5 means     -->
   <!--                        maximum logging. Values of 10 or more mean    -->
@@ -505,7 +505,7 @@
   <!--                       SSI processing is applied.                     -->
   <!--                       [text/x-server-parsed-html(;.*)?]              -->
   <!--                                                                      -->
-  <!--   debug               Debugging detail level for messages logged     -->
+  <!--   debug               Debugging detail level for msgs logged     -->
   <!--                       by this servlet.  [0]                          -->
   <!--                                                                      -->
   <!--   expires             The number of seconds before a page with SSI   -->
@@ -1451,7 +1451,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>eml</extension>
-        <mime-type>message/rfc822</mime-type>
+        <mime-type>msg/rfc822</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>emma</extension>
@@ -1735,7 +1735,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>gim</extension>
-        <mime-type>application/vnd.groove-identity-message</mime-type>
+        <mime-type>application/vnd.groove-identity-msg</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>gml</extension>
@@ -1795,7 +1795,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>gtm</extension>
-        <mime-type>application/vnd.groove-tool-message</mime-type>
+        <mime-type>application/vnd.groove-tool-msg</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>gtw</extension>
@@ -2415,7 +2415,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>mime</extension>
-        <mime-type>message/rfc822</mime-type>
+        <mime-type>msg/rfc822</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mj2</extension>
